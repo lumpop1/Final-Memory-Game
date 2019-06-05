@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MemoryGame</string>
+    <string name="menu_header">Choose Difficulty</string>
+    <string name="menu_option_2X2">Easy (2X2, 20sec)</string>
+    <string name="menu_option_4X4">Medium (4X4, 60sec)</string>
+    <string name="menu_option_5X5">Hard (5X5, 90sec)</string>
+    <string name="seconds_left">Time left :</string>
+    <string name="name_box">Your Name</string>
+    <string name="age_box">Your Age</string>
+    <string name="logIn_text">Memory Card Game</string>
+    <string name="logIn_button">Start</string>
+    <string name="name_container" />
+    <string name="active_timer" />
+    <string name="winner_text">Winner Winner Chicken Dinner！</string>
+    <string name="loser_text">Time out, Game Over！</string>
+    <string name="no_gyro_text">GYROSCOPE wasn\'t found..</string>
+    <string name="logIn_toast">Please fill out your name and age</string>
+    <string name="table_header">Top Players</string>
+    <string name="high_scores">High Scores</string>
+    <string name="table">LeaderBoard</string>
+
+</resources>

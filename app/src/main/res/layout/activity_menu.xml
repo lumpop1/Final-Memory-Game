@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    tools:context="com.jianjian.jc486415.memorygame.MenuActivity">
+
+    <TextView
+        android:id="@+id/text_name_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/menu_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/menu_header"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_2X2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/cardview_light_background"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_green_light"
+        android:padding="40dp"
+        android:text="@string/menu_option_2X2"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_4X4"
+        android:layout_width="250dp"
+        android:textColor="@color/cardview_light_background"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="40dp"
+        android:text="@string/menu_option_4X4"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_5X5"
+        android:layout_width="250dp"
+        android:textColor="@color/cardview_light_background"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:padding="40dp"
+        android:text="@string/menu_option_5X5"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="35dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_purple"
+            android:text="@string/table"
+            android:textColor="@color/cardview_light_background"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+    </FrameLayout>
+
+</LinearLayout>
